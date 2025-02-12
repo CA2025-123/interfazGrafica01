@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     public void guardar(View view){
         if(texto1.getText().toString().isEmpty()){
             Toast.makeText(getBaseContext(),"Vacio", Toast.LENGTH_SHORT).show();
-            texto1.setError("Esto esta Vacio");
+            texto1.setError("Esto esta Vacio ");
         }
         resultado.setText(""+texto1.getText().toString());
     }
